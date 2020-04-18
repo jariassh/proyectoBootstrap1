@@ -1,0 +1,36 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active {
+	list-style: none;
+	text-decoration: underline;
+}
+
+#parrafo1 {
+    background-color: silver;
+    border: solid 2px  black;
+}
+
+#parrafo1 ul {
+    padding: 0px 0px 0px 25px;
+}
+
+#parrafo1 li {
+    display: inline;
+    color: blue;
+}
+
+.link {
+    padding: 0px 10px;
+}
+
+.cajas {
+    border: solid 1px silver;
+}
+
+.cajas ul {
+    padding: 0px;
+}
+
