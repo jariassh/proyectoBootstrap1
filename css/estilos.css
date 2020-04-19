@@ -8,29 +8,210 @@ a:visited, a:link, a:focus, a:hover, a:active {
 	text-decoration: underline;
 }
 
-#parrafo1 {
-    background-color: silver;
-    border: solid 2px  black;
+
+
+/*==========================================
+ === REVISAMOS EN PANTALLAS EXTRA LARGE ===
+============================================*/
+
+@media (min-width: 1200px) {
+
+    #parrafo1 {
+        background-color: silver;
+        border: solid 2px  black;
+    }
+    
+    #parrafo1 ul {
+        padding: 0px 0px 0px 25px;
+    }
+    
+    #parrafo1 li {
+        display: inline;
+        color: blue;
+    }
+    
+    .link {
+        padding: 0px 10px;
+    }
+    
+    .cajas {
+        border: solid 1px silver;
+        position: absolute;
+        float: left;
+        margin: 45px;
+
+    }
+    
+    .cajas ul {
+        padding: 0px;
+    }
+
 }
 
-#parrafo1 ul {
-    padding: 0px 0px 0px 25px;
+/*==========================================
+    === REVISAMOS EN PANTALLAS LARGE ===
+============================================*/
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    #parrafo1 {
+        background-color: silver;
+        border: solid 2px  black;
+    }
+    
+    #parrafo1 ul {
+        padding: 0px 0px 0px 25px;
+    }
+    
+    #parrafo1 li {
+        display: inline;
+        color: blue;
+    }
+    
+    .link {
+        padding: 0px 10px;
+    }
+    
+    .cajas {
+        border: solid 1px silver;
+        margin: 40px;
+    }
+    
+    .cajas ul {
+        padding: 0px;
+    }
+
 }
 
-#parrafo1 li {
-    display: inline;
-    color: blue;
+/*==========================================
+    === REVISAMOS EN PANTALLAS MEDIUM ===
+============================================*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    #parrafo1 {
+        background-color: silver;
+        border: solid 2px  black;
+    }
+    
+    #parrafo1 ul {
+        padding: 0px 0px 0px 25px;
+    }
+    
+    #parrafo1 li {
+        display: inline;
+        color: blue;
+    }
+    
+    .link {
+        padding: 0px 10px;
+    }
+    
+    .cajas {
+        border: solid 1px silver;
+        margin: 30px;
+    }
+    
+    .cajas ul {
+        padding: 0px;
+    }
+
 }
 
-.link {
-    padding: 0px 10px;
+/*==========================================
+    === REVISAMOS EN PANTALLAS SMALL ===
+============================================*/
+
+@media (max-width: 767px) and (min-width: 576px) {
+
+    #parrafo1 {
+        background-color: silver;
+        border: solid 2px  black;
+    }
+    
+    #parrafo1 ul {
+        padding: 0px 0px 0px 25px;
+    }
+    
+    #parrafo1 li {
+        display: inline-block;
+        color: blue;
+    }
+    
+    .link {
+        padding: 0px 10px;
+    }
+    
+    .cajas {
+        border: solid 1px silver;
+        margin: 20px;
+    }
+    
+    .cajas ul {
+        padding: 0px;
+    }
+
 }
 
-.cajas {
-    border: solid 1px silver;
-}
+/*==========================================
+ === REVISAMOS EN PANTALLAS EXTRA SMALL ===
+============================================*/
 
-.cajas ul {
-    padding: 0px;
-}
+@media (max-width: 575px) {
 
+    #parrafo1 {
+        background-color: white;
+        border: solid 2px  black;
+        padding: 0px 30px;
+    }
+    
+    #parrafo1 h1 {
+        width: 100%;
+        text-align: center !important;
+    }
+    
+    #parrafo1 ul {
+        padding: 0px 0px 0px 25px;
+    }
+    
+    #parrafo1 ul li {
+        display: inline;
+        color: blue;
+        text-align: center !important;
+    }
+
+    #links {
+        width: 100%;
+        position: relative;
+    }
+    
+    #links ul {
+        display: inline-block;
+
+    }
+
+    .link {
+        padding: 0px 10px;
+    }
+    
+    .cajas {
+        border: solid 1px silver;
+    }
+
+    .cajas h3 {
+        text-align: center;
+    }
+
+    .cajas p {
+        padding: 0px 30px;
+    }
+    
+    .cajas ul {
+        padding: 0px;
+    }
+
+    .cajas ul li{
+        text-align: right;
+    }
+
+}
